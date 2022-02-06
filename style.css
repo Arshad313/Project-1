@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    display: flex;
+    gap: 28px;
+    justify-content: space-between;
+
+
+}
+
+[class ^="box-"] {
+    width: 140px;
+    height: 140px;
+    background-color: skyblue;
+    border: 2px solid black;
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-2 {
+    align-self: center;
+}
+
+.box-3 {
+    align-self: flex-end;
+}
